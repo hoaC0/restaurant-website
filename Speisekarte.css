@@ -1,0 +1,71 @@
+.about-SK-txt {
+    font-size: 1.75rem;
+}
+
+.menu-button {
+    margin-top: 7.5px;
+    padding: 7.5px 20px;
+    background-color: #db545b;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.menu-button:hover {
+    background-color: #a72939;
+    transition: background-color 1s ease-in-out;
+}
+
+.menu-button-clicked {
+    margin-top: 7.5px;
+    padding: 7.5px 20px;
+    background-color: white;
+    color: #db545b;
+    border: 2px solid #db545b;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.menu {
+    max-width: 100%;
+    margin: 0 ;
+    padding: 40px 20px;
+}
+
+.menu-title {
+    font-size: 1.75rem;
+    color: #e63946;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+    border-top: 3px solid #e63946;
+    padding-top: 20px;
+}
+
+.grid-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    border-bottom: 3px solid #e63946;
+}
+
+.grid-item {
+    padding: 15px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-price {
+    text-align: right;
+    padding: 15px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ccc;
+}

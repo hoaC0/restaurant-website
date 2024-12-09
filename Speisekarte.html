@@ -6,6 +6,7 @@
     <title>WOK ASIA IMBISS</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Speisekarte.css">
 </head>
 
 <body>
@@ -30,25 +31,37 @@
                     </div>
                 </div>
             </header>
-<!---------------------------------------------------------------------------------->
+            
             <main>
                 
                 <div class="hero">
                     <div class="hero-content">
-                        <h2>WOK ASIA IMBISS</h2>
-                        <p>Köstliche asiatische Küche direkt zu Ihren Händen</p>
-                        <button class="cta-button">MENU ANZEIGEN</button>
                     </div>
                 </div>
 
+<!---------------------------------------------------------------------------------->
 
-                <section class="about">
+                <section class="about" class="about-SK">
                     <div class="about-text">
-                        <h3>Genießen Sie die Aromen</h3>
-                        <h4>Erleben Sie asiatische Küche</h4>
-                        <p>Bei WOK ASIA IMBISS in Schramberg bringen wir die lebendigen Geschmäcker Asiens direkt auf Ihren Teller. Unsere Speisekarte bietet eine herrliche Fusion aus traditionellen Rezepten und modernen kulinarischen Techniken.</p>
-                        <p>Ob Sie nun ein Fan von scharfen Pfannengerichten, herzhaften Nudeln oder zarten Teigtaschen sind – wir haben für jeden Geschmack etwas zu bieten.Wir freuen uns, Sie zu bedienen!</p>
-                        <a href="#" class="contact-link">Kontaktieren Sie uns</a>
+                        <h3 class="about-SK-txt">Unsere Speisekarte</h3>
+                        <div>
+                            <button class="menu-button-clicked" onclick="Suppen()" id="Suppen">Suppen</button>
+                            <button class="menu-button" onclick="Vorspeise()" id="Vorspeisen">Vorspeisen</button>
+                            <button class="menu-button" onclick="Schweinefleisch()" id="Schweinefleisch">Schweinefleisch</button>
+                            <button class="menu-button" onclick="Rindfleisch()" id="Rindfleisch">Rindfleisch</button>
+                            <button class="menu-button" onclick="Huehnerfleisch()" id="Huehnerfleisch">Hühnerfleisch</button>
+                            <button class="menu-button" onclick="Ente()" id="Ente">Ente</button>
+                            <button class="menu-button" onclick="Reis()" id="Reis">Gebratene Reis</button>
+                            <button class="menu-button" onclick="Nudeln()" id="Nudeln">Gebratene Nudeln</button>
+                            <button class="menu-button" onclick="Garnelen()" id="Garnelen">Garnelen Gerichte</button>
+                            <button class="menu-button" onclick="Vegetarische()" id="Vegetarische">Vegetarische Gerichte</button>
+                            <button class="menu-button" onclick="Fisch()" id="Fisch">Fisch Gerichte</button>
+                            <button class="menu-button" onclick="Spezialitaeten()" id="Spezialitaeten">Spezialitäten</button>
+                            <button class="menu-button" onclick="Desserts()" id="Desserts">Desserts</button>
+                            <button class="menu-button" onclick="Getraenke()" id="Getraenke">Getränke</button>
+                            <button class="menu-button" onclick="Beilagen()" id="Beilagen">Beilagen</button>
+
+                        </div>
                     </div>
                     <div class="about-image">
                         <img src="friednoodles.jpg" alt="Asian food">
@@ -56,15 +69,33 @@
                 </section>
 
 
-                <section class="gallery">
-                    <h3>Genießen Sie den Geschmack</h3>
-                    <h4>Entdecken Sie unsere köstlichen asiatischen Gerichte</h4>
-                    <div class="gallery-images">
-                        <img src="fried-rice.jpg" alt="Dish 1">
-                        <img src="wonton.jpg" alt="Dish 2">
-                        <img src="red curry.jpg" alt="Dish 3">
-                    </div>
-                </section>
+                
+                    <section class="menu">
+                        <h3 class="menu-title">Suppen</h3>
+                        <div class="menu-grid">
+                            <div class="grid-header">Gericht</div>
+                            <div class="grid-header">Preis</div>
+                            <!--start 1-->
+                            <div class="grid-item">Pekingsuppe</div>
+                            <div class="grid-price">3,00 €</div>
+                
+                            <div class="grid-item">Gemüsesuppe</div>
+                            <div class="grid-price">3,50 €</div>
+
+                            <div class="grid-item">Hühnersuppe</div>
+                            <div class="grid-price">4,00 €</div>
+                
+                            <div class="grid-item">Wan-Tan-Suppe</div>
+                            <div class="grid-price">5,00 €</div>
+                
+                            <div class="grid-item">Tom-Kha-Gai</div>
+                            <div class="grid-price">4,50 €</div>
+                
+                            <div class="grid-item">Tom-Yam-Gai</div>
+                            <div class="grid-price">3,50 €</div>
+                        </div>
+                    </section>
+                
 
 
                 <section class="contact">
@@ -117,6 +148,8 @@
 
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="scriptMenu.js"></script>
 </body>
+
+
 </html>
