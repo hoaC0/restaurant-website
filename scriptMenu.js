@@ -571,3 +571,11 @@ function remover() {
     const itemsToRemove = document.querySelectorAll(".grid-item, .grid-price");
     itemsToRemove.forEach(item => item.remove());
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('mobileMenuSelect').addEventListener('change', function() {
+        if (this.value) {
+            window[this.value]();
+        }
+    });
+});

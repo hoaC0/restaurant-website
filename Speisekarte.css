@@ -69,3 +69,29 @@
     font-size: 1.1rem;
     border-bottom: 1px solid #ccc;
 }
+
+/* --------------- */
+
+#mobileMenuSelect {
+    display: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .menu-button, .menu-button-clicked {
+        display: none;
+    }
+
+    #mobileMenuSelect {
+        display: block;
+    }
+
+    .about-image {
+        display: none;
+    }
+}

@@ -7,12 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="Speisekarte.css">
+    <link rel="stylesheet" href="styles-01Q5qHeLOi5dvRm8fGKcZczG5GIJs4.css">
 </head>
-
 <body>
     <div id="main-container">
         <div class="container">
-            
             <header>
                 <h1>WOK ASIA IMBISS</h1>
                 <div class="header-right">
@@ -33,17 +32,32 @@
             </header>
             
             <main>
-                
                 <div class="hero">
                     <div class="hero-content">
                     </div>
                 </div>
 
-<!---------------------------------------------------------------------------------->
-
                 <section class="about" class="about-SK">
                     <div class="about-text">
                         <h3 class="about-SK-txt">Unsere Speisekarte</h3>
+                        <select id="mobileMenuSelect">
+                            <option value="">Wählen Sie eine Kategorie</option>
+                            <option value="Suppen">Suppen</option>
+                            <option value="Vorspeisen">Vorspeisen</option>
+                            <option value="Schweinefleisch">Schweinefleisch</option>
+                            <option value="Rindfleisch">Rindfleisch</option>
+                            <option value="Huehnerfleisch">Hühnerfleisch</option>
+                            <option value="Ente">Ente</option>
+                            <option value="Reis">Gebratene Reis</option>
+                            <option value="Nudeln">Gebratene Nudeln</option>
+                            <option value="Garnelen">Garnelen Gerichte</option>
+                            <option value="Vegetarische">Vegetarische Gerichte</option>
+                            <option value="Fisch">Fisch Gerichte</option>
+                            <option value="Spezialitaeten">Spezialitäten</option>
+                            <option value="Desserts">Desserts</option>
+                            <option value="Getraenke">Getränke</option>
+                            <option value="Beilagen">Beilagen</option>
+                        </select>
                         <div>
                             <button class="menu-button-clicked" onclick="Suppen()" id="Suppen">Suppen</button>
                             <button class="menu-button" onclick="Vorspeise()" id="Vorspeisen">Vorspeisen</button>
@@ -60,7 +74,6 @@
                             <button class="menu-button" onclick="Desserts()" id="Desserts">Desserts</button>
                             <button class="menu-button" onclick="Getraenke()" id="Getraenke">Getränke</button>
                             <button class="menu-button" onclick="Beilagen()" id="Beilagen">Beilagen</button>
-
                         </div>
                     </div>
                     <div class="about-image">
@@ -68,38 +81,27 @@
                     </div>
                 </section>
 
-
-                
-                    <section class="menu">
-                        <h3 class="menu-title">Suppen</h3>
-                        <div class="menu-grid">
-                            <div class="grid-header">Gericht</div>
-                            <div class="grid-header">Preis</div>
-                            <!--start 1-->
-                            <div class="grid-item">Pekingsuppe</div>
-                            <div class="grid-price">3,00 €</div>
-                
-                            <div class="grid-item">Gemüsesuppe</div>
-                            <div class="grid-price">3,50 €</div>
-
-                            <div class="grid-item">Hühnersuppe</div>
-                            <div class="grid-price">4,00 €</div>
-                
-                            <div class="grid-item">Wan-Tan-Suppe</div>
-                            <div class="grid-price">5,00 €</div>
-                
-                            <div class="grid-item">Tom-Kha-Gai</div>
-                            <div class="grid-price">4,50 €</div>
-                
-                            <div class="grid-item">Tom-Yam-Gai</div>
-                            <div class="grid-price">3,50 €</div>
-                        </div>
-                    </section>
-                
-
+                <section class="menu">
+                    <h3 class="menu-title">Suppen</h3>
+                    <div class="menu-grid">
+                        <div class="grid-header">Gericht</div>
+                        <div class="grid-header">Preis</div>
+                        <div class="grid-item">Pekingsuppe</div>
+                        <div class="grid-price">3,00 €</div>
+                        <div class="grid-item">Gemüsesuppe</div>
+                        <div class="grid-price">3,50 €</div>
+                        <div class="grid-item">Hühnersuppe</div>
+                        <div class="grid-price">4,00 €</div>
+                        <div class="grid-item">Wan-Tan-Suppe</div>
+                        <div class="grid-price">5,00 €</div>
+                        <div class="grid-item">Tom-Kha-Gai</div>
+                        <div class="grid-price">4,50 €</div>
+                        <div class="grid-item">Tom-Yam-Gai</div>
+                        <div class="grid-price">3,50 €</div>
+                    </div>
+                </section>
 
                 <section class="contact">
-
                     <div class="contact-form">
                         <h3>Kontaktieren Sie uns</h3>
                         <h4>Wir würden uns freuen, von Ihnen zu hören!</h4>
@@ -131,7 +133,7 @@
                         <div class="info">
                             <h4>Kontakt</h4>
                             <p>📞 +491762666583</p>
-                            <p>✉️ <a href="mailto:hoachau1010@gmail.com">hoachau1010@gmail.com</a></p>
+                            <p>✉️ <a href="/cdn-cgi/l/email-protection#f79f9896949f9682c6c7c6c7b7909a969e9bd994989a"><span class="__cf_email__" data-cfemail="3e56515f5d565f4b0f0e0f0e7e59535f5752105d5153">[email&#160;protected]</span></a></p>
                             <h4>Ort</h4>
                             <p>Schillerstraße 37</p>
                             <p>78713 Schramberg, Baden-Württemberg</p>
@@ -140,16 +142,12 @@
                             <p>Samstag: 9:00 - 18:00 Uhr</p>
                             <p>Sonntag: 9:00 - 12:00 Uhr</p>
                         </div>
-                    
                     </div>
                 </section>
-
             </main>
-
         </div>
     </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="scriptMenu.js"></script>
 </body>
-
-
 </html>
